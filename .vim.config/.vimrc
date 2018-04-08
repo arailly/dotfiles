@@ -64,6 +64,7 @@ set hlsearch
 " nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 " カラースキーム
+set t_Co=256
 colorscheme iceberg
 syntax on
 
