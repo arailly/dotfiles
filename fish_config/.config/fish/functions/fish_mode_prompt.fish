@@ -1,0 +1,1 @@
+/Users/yusuke/.config/fisherman/eden/fish_mode_prompt.fish

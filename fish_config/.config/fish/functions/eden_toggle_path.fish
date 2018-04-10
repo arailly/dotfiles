@@ -1,0 +1,1 @@
+/Users/yusuke/.config/fisherman/eden/eden_toggle_path.fish
