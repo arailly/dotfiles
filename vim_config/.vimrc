@@ -68,6 +68,13 @@ set t_Co=256
 colorscheme iceberg
 syntax on
 
+" キーマッピング
+nnoremap <silent> <F3> :NERDTreeToggle<CR>
+
+" テンプレート
+autocmd BufNewFile *.tex 0r $HOME/.vim/template/tex.txt
+
+
 " dein.vim
 "dein Scripts-----------------------------
 if &compatible
@@ -99,9 +106,11 @@ call dein#add('~/.vim/bundle/repos/github.com/Shougo/dein.vim')
   call dein#add('w0rp/ale')
   call dein#add('vim-airline/vim-airline')
   call dein#add('scrooloose/nerdtree')
+  call dein#add('thinca/vim-quickrun')
+  call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
+  call dein#add('Vimjas/vim-python-pep8-indent')
 
 "  autocmd VimEnter * execute 'NERDTree'
-  map <C-n> :NERDTreeToggle<CR>
 
   " Required:
   call dein#end()
@@ -118,3 +127,21 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
+
+"QuickRun Config--------------------------
+
+let g:quickrun_config = {
+\ "_" : {
+\       "runner" : "vimproc",
+\       "runner/vimproc/updatetime" : 60
+\       },
+\ "tex" : {
+\         'command' : 'latexmk',
+\         "outputter/buffer/split" : ":botright 8sp",
+\         'outputter/error/error' : 'quickfix',
+\         'hook/ck/directory' : '%S:h',
+\         'exec' : '%c %s'
+\         },
+\}
+
+
