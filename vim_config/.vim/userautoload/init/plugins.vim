@@ -15,10 +15,14 @@ if dein#load_state("$HOME/.vim/bundle")
   " Required:
 call dein#add("$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim")
 
-  " Add or remove your plugins here:
+  " snippets
+  call dein#add('Shougo/neocomplete.vim')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('honza/vim-snippets')
 
+  "tools
+  call dein#add('simeji/winresizer')
   call dein#add('mattn/sonictemplate-vim')
   call dein#add('reireias/vim-cheatsheet')
   call dein#add('thinca/vim-quickrun')
@@ -28,7 +32,23 @@ call dein#add("$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim")
   call dein#add('scrooloose/nerdtree')
   call dein#add('thinca/vim-quickrun')
   call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
+
+  " colors
+  call dein#add('vim-airline/vim-airline-themes')
+  " call dein#add('cocopon/pgmnt.vim')
+  " call dein#add('cocopon/iceberg.vim')
+
+  " call dein#add('w0ng/vim-hybrid')
+  call dein#add('nanotech/jellybeans.vim')
+
+  "languages
   call dein#add('Vimjas/vim-python-pep8-indent')
+  call dein#add('fatih/vim-go')
+
+  "markdowns
+  call dein#add('plasticboy/vim-markdown')
+  call dein#add('kannokanno/previm')
+  call dein#add('tyru/open-browser.vim')
 
   " Required:
   call dein#end()
@@ -44,4 +64,8 @@ if dein#check_install()
   call dein#install()
 endif
 
-
+syntax on
+set t_Co=256
+set background=dark
+"colorscheme iceberg
+colorscheme jellybeans

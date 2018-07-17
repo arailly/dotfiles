@@ -7,4 +7,3 @@ let g:dein#_base_path = '/Users/yusuke/.vim/bundle'
 let g:dein#_runtime_path = '/Users/yusuke/.vim/bundle/.cache/.vimrc/.dein'
 let g:dein#_cache_path = '/Users/yusuke/.vim/bundle/.cache/.vimrc'
 let &runtimepath = '/Users/yusuke/.vim,/usr/local/share/vim/vimfiles,/Users/yusuke/.vim/bundle/repos/github.com/Shougo/vimproc.vim,/Users/yusuke/.vim/bundle/repos/github.com/Shougo/dein.vim,/Users/yusuke/.vim/bundle/.cache/.vimrc/.dein,/usr/local/share/vim/vim80,/Users/yusuke/.vim/bundle/.cache/.vimrc/.dein/after,/usr/local/share/vim/vimfiles/after,/Users/yusuke/.vim/after'
-filetype off

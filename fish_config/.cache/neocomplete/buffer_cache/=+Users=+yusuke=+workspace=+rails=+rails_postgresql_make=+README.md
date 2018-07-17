@@ -1,0 +1,1 @@
+{'Rails', 'PostgreSQL', 'Docker', 'Usage', 'start', 'project', 'make', 'docker', 'docker-compose', 'down', 'build', 'logs', '<command>', 'rails', 'routes', 'db:create', 'dbcreate', 'db:migrate', 'dbmigrate', '<br>', 'Reference', 'https:', 'docs', 'compose', 'License', 'Code', 'Copyright', 'Yusuke', 'ARAI', 'released', 'under', 'license', 'opensource', 'licenses', 'mit-license'}

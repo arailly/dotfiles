@@ -1,0 +1,1 @@
+{'class', 'RenameColumnToRealEstate', 'ActiveRecord', 'Migration', 'change', 'rename_column', 'real_estates', 'remind', 'whether_remind', 'remind_ab_negotiation', 'whether_remind_ab_negotiation', 'remind_other', 'whether_remind_other', 'remind_check_item', 'whether_remind_check_item'}

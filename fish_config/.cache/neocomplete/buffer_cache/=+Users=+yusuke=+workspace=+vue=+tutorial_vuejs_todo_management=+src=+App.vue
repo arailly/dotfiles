@@ -1,0 +1,1 @@
+{'template', 'assets', 'logo', 'Todo', 'Management', 'router', 'view', 'script', 'export', 'default', 'name', 'style', 'font', 'family', 'Avenir', 'Helvetica', 'Arial', 'sans', 'serif', 'webkit', 'smoothing', 'antialiased', 'grayscale', 'text', 'align', 'center', 'color', 'c3e50', 'margin'}

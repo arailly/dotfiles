@@ -1,6 +1,7 @@
 " Color Setting
 
 " Color Scheme
-set t_Co=256
-colorscheme iceberg
-syntax on
+"syntax on
+"set t_Co=256
+"set background=dark
+"colorscheme iceberg

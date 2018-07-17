@@ -1,3 +1,3 @@
 " Read templates 
 
-autocmd BufNewFile *.tex 0r $HOME/.vim/templates/tex.txt
+autocmd BufNewFile *.tex 0r $HOME/.vim/mytemplates/tex.txt

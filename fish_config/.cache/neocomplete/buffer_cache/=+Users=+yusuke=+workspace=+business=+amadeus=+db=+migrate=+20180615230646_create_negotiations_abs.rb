@@ -1,0 +1,1 @@
+{'class', 'CreateNegotiationsAbs', 'ActiveRecord', 'Migration', 'change', 'create_table', 'negotiations_abs', 'integer', 'financial_institution_evaluation_value', 'ab_trade_value', 'ab_deposit', 'date', 'settlement_due_date', 'timestamps'}

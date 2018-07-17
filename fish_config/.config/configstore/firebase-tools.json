@@ -1,0 +1,37 @@
+{
+	"analytics-uuid": "a72bf3fa-0a9b-4ca6-b6d2-550471308119",
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1530021634555,
+	"usage": true,
+	"user": {
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "117581765541979737562",
+		"email": "txtbokwrm@gmail.com",
+		"email_verified": true,
+		"at_hash": "1A4j0v_PZc45zvpCippogQ",
+		"exp": 1530025241,
+		"iss": "accounts.google.com",
+		"iat": 1530021641
+	},
+	"tokens": {
+		"expires_at": 1530025423273,
+		"refresh_token": "1/ablL8Xg2vvm4e1rCFMRmwH4SsXehBN1T9GUN61f9lxCvjKdpAVLGOV4Zp1hGCTWx",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.GlvmBZc40yj_P2PcXoZox9NqTWPHseOAQX7pmBgOg1R7RZ_kPQ3BV3-6YLL3QsOAsW97DRDfvGfEa_woCwO_logUWP47g8Xr-h07X6d59795nNn3hOiHrocSE9YJ",
+		"token_type": "Bearer",
+		"expires_in": 3600,
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImRhZDQ0NzM5NTc2NDg1ZWMzMGQyMjg4NDJlNzNhY2UwYmMzNjdiYzQifQ.eyJhenAiOiI1NjM1ODQzMzU4NjktZmdyaGdtZDQ3YnFuZWtpajVpOGI1cHIwM2hvODQ5ZTYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI1NjM1ODQzMzU4NjktZmdyaGdtZDQ3YnFuZWtpajVpOGI1cHIwM2hvODQ5ZTYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMTc1ODE3NjU1NDE5Nzk3Mzc1NjIiLCJlbWFpbCI6InR4dGJva3dybUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InhXQldIV1VzMDVTRGlVenZxUTIwUUEiLCJleHAiOjE1MzAwMjU0MjMsImlzcyI6ImFjY291bnRzLmdvb2dsZS5jb20iLCJpYXQiOjE1MzAwMjE4MjN9.gQvmyDUe4svyhvK3rI0xNHopR8pXwPuPCgdvht-Wc1SGDrF68ih866JNIXZm6chVXkkAXiU9Ubdnqohh1MpiqsqdVkS9O65TbPnHjdSN1PH4rlKtm93sBhQsDxN6j2npHYNqpZKuEBb4wOhH0fkWKkDBMpZE7zJyqbM_c9djPwZExw9nyGJBTLL5UERYEKzUTXILD7Qmn-Q9Vtc9zDqrXvHfMCtNfj63HVdXAdmApJwrsX5Q3tHyDXd_yHi0b95VYWMFhAWHlh-ccLTJ36K3vvLb7LVXDGtcEMYbC-GoTEL5U71PvQoeuHlE8hAlfhqDm-16PDNimKrXXicEMlvnJg"
+	},
+	"activeProjects": {
+		"/Users/yusuke/workspace/firebase/sample": "sample-12fba"
+	}
+}

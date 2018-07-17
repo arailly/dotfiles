@@ -1,0 +1,1 @@
+{'Rails', 'application', 'routes', 'draw', 'remind', 'index', 'mount', 'RailsAdmin', 'Engine', 'admin', 'rails_admin', 'devise_for', 'users', 'root', 'real_estates', 'resources', 'monthly_check_items', 'pay_history'}

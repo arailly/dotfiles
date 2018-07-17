@@ -1,0 +1,1 @@
+{'class', 'UsersController', 'ApplicationController', 'show', '@user', 'User', 'find', 'params', 'create', 'user_params', 'save', 'log_in', 'flash', 'success', 'Welcome', 'Sample', 'App!', 'redirect_to', 'equal', 'user_url', 'else', 'render', 'edit', 'update', 'update_attributes', 'private', 'require', 'user', 'permit', 'name', 'email', 'password', 'password_confirmation'}

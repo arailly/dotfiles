@@ -1,0 +1,1 @@
+{'class', 'RealEstate', 'ApplicationRecord', 'has_many', 'monthly_check_item', 'dependent', 'destroy', 'accepts_nested_attributes_for', 'validates', 'name', 'presence', 'true', 'self', 'search', 'where', 'pic_id', 'else'}

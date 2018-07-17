@@ -1,0 +1,1 @@
+{'class', 'AddRemindMonthlyCheckItemColumnToRealEstate', 'ActiveRecord', 'Migration', 'change', 'add_column', 'real_estates', 'whether_remind_monthly_check_item', 'boolean'}

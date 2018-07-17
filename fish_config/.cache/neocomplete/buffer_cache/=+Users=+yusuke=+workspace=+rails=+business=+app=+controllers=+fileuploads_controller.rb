@@ -1,0 +1,1 @@
+{'class', 'FileuploadsController', 'ApplicationController', 'index', '@img_paths', 'pngs', 'glob', 'Rails', 'root', 'join', 'public', 'each', 'push', 'File', 'basename', 'create', 'uploaded_file', 'fileupload_param', 'file', 'output_path', 'original_filename', 'open', 'write', 'read', 'redirect_to', 'action', 'private', 'params', 'require', 'fileupload', 'permit'}

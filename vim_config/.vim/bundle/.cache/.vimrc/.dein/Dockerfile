@@ -1,18 +1,20 @@
-FROM tweekmonster/vim-testbed:latest
+FROM golang:1.10.1
 
-RUN install_vim -tag v8.0.0027 -build \
-                -tag neovim:v0.1.7 -build
+RUN apt-get update -y && \
+  apt-get install -y build-essential curl git libncurses5-dev python3-pip && \
+  apt-get clean && \
+  rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENV PACKAGES="\
-    bash \
-    git \
-    python \
-    py-pip \
-"
-RUN apk --update add $PACKAGES && \
-    rm -rf /var/cache/apk/* /tmp/* /var/tmp/*
+RUN pip3 install vim-vint
 
-RUN pip install vim-vint==0.3.9
+RUN useradd -ms /bin/bash -d /vim-go vim-go
+USER vim-go
 
-RUN git clone https://github.com/junegunn/vader.vim vader && \
-    cd vader && git checkout c6243dd81c98350df4dec608fa972df98fa2a3af
+COPY . /vim-go/
+WORKDIR /vim-go
+
+RUN scripts/install-vim vim-7.4
+RUN scripts/install-vim vim-8.0
+RUN scripts/install-vim nvim
+
+ENTRYPOINT ["make"]

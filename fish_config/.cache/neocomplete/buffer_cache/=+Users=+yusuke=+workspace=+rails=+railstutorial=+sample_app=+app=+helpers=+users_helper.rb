@@ -1,0 +1,1 @@
+{'module', 'UsersHelper', 'gravatar_for', 'user', 'size', 'gravatar_id', 'Digest', 'hexdigest', 'email', 'downcase', 'gravatar_url', 'https', 'secure', 'gravatar', 'avatar', 'image_tag', 'name', 'class'}

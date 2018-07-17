@@ -1,0 +1,1 @@
+{'build', 'version', 'load', 'with', 'import', 'command', 'runtime', 'only', 'standalone', 'been', 'webpack', 'base', 'conf', 'alias', 'from', 'router', 'config', 'productionTip', 'false', 'eslint', 'disable', 'components', 'template'}
