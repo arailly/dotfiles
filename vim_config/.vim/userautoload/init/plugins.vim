@@ -13,13 +13,19 @@ if dein#load_state("$HOME/.vim/bundle")
 
   " Let dein manage dein
   " Required:
-call dein#add("$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim")
+  call dein#add("$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim")
+  " call dein#add('supermomonga/neocomplete-rsense.vim')
+  " call dein#add('scrooloose/syntastic')
 
   " snippets
-  call dein#add('Shougo/neocomplete.vim')
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
   call dein#add('honza/vim-snippets')
+
+  " completes
+  call dein#add('Shougo/neocomplete.vim')
+  call dein#add('cohama/lexima.vim')
+  call dein#add('tpope/vim-endwise')
 
   "tools
   call dein#add('simeji/winresizer')
@@ -41,8 +47,19 @@ call dein#add("$HOME/.vim/bundle/repos/github.com/Shougo/dein.vim")
   " call dein#add('w0ng/vim-hybrid')
   call dein#add('nanotech/jellybeans.vim')
 
-  "languages
+  " Reference
+  call dein#add('thinca/vim-ref')
+  call dein#add('yuku-t/vim-ref-ri')
+  call dein#add('szw/vim-tags')
+
+  " Python
   call dein#add('Vimjas/vim-python-pep8-indent')
+
+  " Ruby
+  call dein#add('marcus/rsense')
+  call dein#add('tpope/vim-rails')
+
+  " Go
   call dein#add('fatih/vim-go')
 
   "markdowns

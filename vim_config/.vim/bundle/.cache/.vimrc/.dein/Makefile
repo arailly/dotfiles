@@ -1,29 +1,8 @@
-VIMS ?= vim-7.4 vim-8.0 nvim
-
-all: install test lint
-
-install:
-	@echo "==> Installing Vims: $(VIMS)"
-	@for vim in $(VIMS); do \
-		./scripts/install-vim $$vim; \
-	done
-
 test:
-	@echo "==> Running tests for $(VIMS)"
-	@for vim in $(VIMS); do \
-		./scripts/test $$vim; \
-	done
+	VIMRUNNER_REUSE_SERVER=1 xvfb-run bundle exec rspec
 
-lint:
-	@echo "==> Running linting tools"
-	@./scripts/lint vim-8.0
+test_slow:
+	VIMRUNNER_REUSE_SERVER=0 bundle exec rspec
 
-docker:
-	@echo "==> Building/starting Docker container"
-	@./scripts/docker-test
-
-clean:
-	@echo "==> Cleaning /tmp/vim-go-test"
-	@rm -rf /tmp/vim-go-test
-
-.PHONY: all test install clean lint docker
+test_visible:
+	VIMRUNNER_REUSE_SERVER=1 bundle exec rspec
