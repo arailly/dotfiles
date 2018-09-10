@@ -35,7 +35,7 @@ Plug 'yuku-t/vim-ref-ri'
 Plug 'szw/vim-tags'
 
 " C++
-Plug 'justmao945/vim-clang'
+" Plug 'justmao945/vim-clang', {'for': ['c', 'cpp']}
 
 " Python
 Plug 'Vimjas/vim-python-pep8-indent', {'for': 'py'}
