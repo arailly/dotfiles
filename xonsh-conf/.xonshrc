@@ -1,2 +1,9 @@
 # path helper
 source-bash $(/usr/libexec/path_helper -s)
+
+# aliases
+aliases['la'] = "ls -al"
+aliases['e'] = "emacs"
+
+aliases['g'] = "git"
+
