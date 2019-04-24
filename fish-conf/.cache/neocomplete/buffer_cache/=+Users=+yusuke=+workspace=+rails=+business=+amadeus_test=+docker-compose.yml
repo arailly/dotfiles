@@ -1,0 +1,1 @@
+{'version', 'services', 'image', 'postgres', 'volumes', 'postgresql', 'data', 'build', 'command', 'bash', 'rails', 'service', 'start', 'amadeus_test', 'bundle', 'local', 'ports'}

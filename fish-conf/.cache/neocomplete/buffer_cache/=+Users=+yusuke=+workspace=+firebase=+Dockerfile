@@ -1,0 +1,1 @@
+{'FROM', 'node', 'stretch', 'WORKDIR', 'myapp', 'install', 'firebase', 'tools'}

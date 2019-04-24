@@ -1,0 +1,1 @@
+{'LaTeX', 'report_files', 'main', 'report', 'Python2', 'python2', 'python', 'mystat', 'kadai1', 'kadai2', 'dataset', 'work1', 'reject', 'accept', 'python3', 'matplotlib', 'numpy', 'pandas', 'expect_chi2', 'showhist'}

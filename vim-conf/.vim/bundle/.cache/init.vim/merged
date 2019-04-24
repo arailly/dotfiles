@@ -1,0 +1,2 @@
+100
+['/Users/yusuke/.vim/bundle/repos/github.com/Shougo/dein.vim', 'Shougo/neocomplete.vim', 'Shougo/neosnippet-snippets', 'Shougo/neosnippet.vim', 'Shougo/vimproc.vim', 'Vimjas/vim-python-pep8-indent', 'cocopon/iceberg.vim', 'cocopon/pgmnt.vim', 'fatih/vim-go', 'honza/vim-snippets', 'kannokanno/previm', 'mattn/sonictemplate-vim', 'plasticboy/vim-markdown', 'reireias/vim-cheatsheet', 'scrooloose/nerdtree', 'simeji/winresizer', 'thinca/vim-quickrun', 'tpope/vim-fugitive', 'tyru/open-browser.vim', 'vim-airline/vim-airline', 'w0rp/ale']

@@ -1,0 +1,1 @@
+{'FROM', 'ruby', 'update', 'install', 'build', 'essential', 'libpq', 'nodejs', 'postgresql', 'mkdir', 'myapp', 'WORKDIR', 'COPY', 'Gemfile', 'lock', 'BUNDLE_PATH', 'bundle'}

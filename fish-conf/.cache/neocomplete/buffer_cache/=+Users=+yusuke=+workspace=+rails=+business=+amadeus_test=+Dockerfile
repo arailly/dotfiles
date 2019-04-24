@@ -1,0 +1,1 @@
+{'FROM', 'ruby', 'update', 'install', 'build', 'essential', 'libpq', 'nodejs', 'postgresql', 'task', 'japanese', 'locales', 'mkdir', 'amadeus', 'WORKDIR', 'COPY', 'Gemfile', 'lock', 'bundle', 'LANG', 'ja_JP', 'LANGUAGE', 'LC_ALL', 'EXPOSE'}

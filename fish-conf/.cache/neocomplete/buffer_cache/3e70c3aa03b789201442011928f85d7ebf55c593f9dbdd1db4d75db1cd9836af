@@ -1,0 +1,1 @@
+{'migrate', 'CREATE', 'TABLE', 'message', 'INTEGER', 'NULL', 'PRIMARY', 'body', 'TEXT', 'DEFAULT', 'username', 'balance', 'created', 'TIMESTAMP', 'DATETIME', 'localtime', 'updated', 'Down', 'DROP'}

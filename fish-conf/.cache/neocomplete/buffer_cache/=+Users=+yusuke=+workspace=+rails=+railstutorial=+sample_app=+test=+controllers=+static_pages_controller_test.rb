@@ -1,0 +1,1 @@
+{'require', 'test_helper', 'class', 'StaticPagesControllerTest', 'ActionDispatch', 'IntegrationTest', 'test', 'should', 'home', 'root_path', 'assert_response', 'success', 'assert_select', 'title', 'Ruby', 'Rails', 'Tutorial', 'Sample', 'help', 'help_path', 'Help', 'about', 'about_path', 'About', 'contact', 'contact_path', 'Contact'}

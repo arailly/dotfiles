@@ -1,0 +1,18 @@
+\documentclass{jsarticle}
+\usepackage{listings, plistings}
+\usepackage{otf}
+\usepackage[dvipdfmx]{graphicx}
+
+\title{情報社会と工学倫理 第14回レポート\}
+\author{大阪大学 工学部 電子情報工学科 情報通信工学科目 情報システム学クラス \\ \
+08D18701 新井悠介}
+
+\begin{document}
+\maketitle
+
+\section{事故の概要}
+\section{事故の原因}
+\section{考察}
+
+\end{document}
+
