@@ -1,1 +1,0 @@
-{'python3', 'import', 'numpy', 'csv_write_wrapper', 'list', 'filename', 'with', 'open', 'writer', 'lineterminator', 'writerow', 'chi2s', 'range', 'chi2', 'random', 'chisquare', 'append', 'expect_chi2'}

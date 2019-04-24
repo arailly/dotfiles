@@ -1,1 +1,0 @@
-{'module', 'RealEstatesHelper', 'get_uncheck_monthly_check_items', 'monthly_check_items', 'return', 'where', 'remind_pay_guaranteed_rent_on_10th', 'false', 'remind_pay_monthly_rent_from_tenant_on_15th'}

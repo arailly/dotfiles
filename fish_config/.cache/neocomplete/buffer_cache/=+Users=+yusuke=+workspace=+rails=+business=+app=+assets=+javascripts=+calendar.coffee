@@ -1,1 +1,0 @@
-{'Place', 'behaviors', 'hooks', 'related', 'matching', 'controller', 'here', 'this', 'logic', 'will', 'automatically', 'available', 'application', 'CoffeeScript', 'file', 'http', 'coffeescript', 'document', 'turbolinks', 'load', 'calendar', 'fullCalendar', 'return', 'before', 'cache', 'empty'}

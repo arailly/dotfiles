@@ -1,1 +1,0 @@
-{'class', 'NegotiationsAb', 'ApplicationRecord'}

@@ -1,1 +1,0 @@
-{'class', 'DeleteMonthlyColumnsToRealEstates', 'ActiveRecord', 'Migration', 'change', 'remove_column', 'real_estates', 'lease_situation', 'pay_guaranteed_rent_on_10th', 'pay_monthly_rent_from_tenant_on_15th'}

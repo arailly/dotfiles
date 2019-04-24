@@ -1,1 +1,0 @@
-{'class', 'RenameColumnsToCheckItems', 'ActiveRecord', 'Migration', 'change', 'rename_column', 'check_items', 'contract_and_Loan_documents_complete', 'contract_and_loan_documents_complete', 'other_possessed_property_1_Lease_contract', 'other_possessed_property_1_lease_contract', 'other_possessed_property_2_Lease_contract', 'other_possessed_property_2_lease_contract'}

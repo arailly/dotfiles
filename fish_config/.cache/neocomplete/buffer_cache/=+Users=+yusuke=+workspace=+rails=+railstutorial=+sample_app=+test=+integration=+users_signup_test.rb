@@ -1,1 +1,0 @@
-{'require', 'test_helper', 'class', 'UsersSignupTest', 'ActionDispatch', 'IntegrationTest', 'test', 'invalid', 'signup', 'information', 'signup_path', 'assert_no_difference', 'User', 'count', 'post', 'params', 'user', 'name', 'email', '@invalid', 'password', 'password_confirmation', 'assert_template', 'users'}

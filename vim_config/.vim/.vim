@@ -1,1 +1,0 @@
-/Users/yusuke/dotfiles/vim_config/.vim

@@ -1,1 +1,0 @@
-{'version', 'services', 'image', 'postgres', 'volumes', 'postgresql', 'data', 'build', 'command', 'rails', 'myapp', 'bundle', 'local', 'ports', 'depends_on'}

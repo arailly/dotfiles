@@ -1,1 +1,0 @@
-{'class', 'SessionsController', 'ApplicationController', 'create', 'user', 'User', 'find_by', 'email', 'params', 'session', 'downcase', 'authenticate', 'password', 'log_in', 'redirect_to', 'else', 'flash', 'danger', 'Invalid', 'combination', 'render', 'destroy', 'log_out', 'root_url'}

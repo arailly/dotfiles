@@ -1,1 +1,0 @@
-{'require', 'test_helper', 'class', 'SiteLayoutTest', 'ActionDispatch', 'IntegrationTest', 'test', 'truth', 'assert', 'true', 'layout', 'links', 'root_path', 'assert_template', 'static_pages', 'home', 'assert_select', 'href', 'count', 'help_path', 'about_path', 'contact_path', 'signup_path', 'title', 'full_title', 'Sign'}

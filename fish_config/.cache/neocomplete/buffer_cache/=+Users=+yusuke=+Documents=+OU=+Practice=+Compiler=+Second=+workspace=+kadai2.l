@@ -1,1 +1,0 @@
-{'include', 'symbol', 'digit', 'other', 'return', 'yytext', 'sqrt', 'SQRT', 'fabs', 'FABS', 'CAST_INT', 'sscanf', 'yylval', 'ival', 'INTC', 'rval', 'REALC', 'fprintf', 'stderr', 'Illegal', 'character', 'ignored'}

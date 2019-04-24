@@ -1,1 +1,0 @@
-{'require', 'generate', 'csv_column_names', '@real_estate', 'monthly_check_item', 'each', 'csv_column_values', 'real_estate_id', 'rent_situation', 'remind_pay_guaranteed_rent_on_10th', 'remind_pay_monthly_rent_from_tenant_on_15th'}
