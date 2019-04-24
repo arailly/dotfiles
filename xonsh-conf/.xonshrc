@@ -1,0 +1,2 @@
+# path helper
+source-bash $(/usr/libexec/path_helper -s)
