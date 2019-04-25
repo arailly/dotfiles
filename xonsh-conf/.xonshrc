@@ -5,10 +5,18 @@ source-bash $(/usr/libexec/path_helper -s)
 
 
 # alias
+# general commands
 aliases['la'] = "ls -al"
-aliases['e'] = "emacs"
 aliases['so'] = "source"
 aliases['soxonsh'] = "source ~/.xonshrc"
+aliases['cdd'] = "cd ~/dotfiles"
+aliases['...'] = "../.."
+aliases['....'] = "../../.."
+
+# emacs
+aliases['e'] = "emacsclient -at"
+aliases['E'] = "emacs --daemon" 
+aliases['kill-emacs'] = "emacsclient -e '(kill-emacs)'"
 
 aliases['g'] = "git"
 aliases['ga'] = "git add"
@@ -17,7 +25,9 @@ aliases['gp'] = "git push"
 aliases['gb'] = "git branch"
 aliases['gs'] = "git status"
 
+
 # prompt
 $PROMPT = "{env_name}{BOLD_GREEN}{user}@{hostname}{BOLD_BLUE} {cwd} {BOLD_BLUE}\n{prompt_end}{NO_COLOR} "
 $RIGHT_PROMPT = "{branch_color}{curr_branch: {}}{NO_COLOR}"
+
 
