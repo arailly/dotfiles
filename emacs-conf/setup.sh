@@ -1,1 +1,1 @@
-ln -sf $(pwd)/.emacs.d ~/.emacs.d
+ln -sf $HOME/dotfiles/emacs-conf/.emacs.d $HOME
