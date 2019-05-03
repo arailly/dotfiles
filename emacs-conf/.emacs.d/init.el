@@ -17,7 +17,27 @@
 (menu-bar-mode -1)
 
 ;; Assign C-h as backspace
-(define-key key-translation-map [?\C-h] [?\C-?])
+(define-key key-translation-map (kbd "C-h") (kbd "<DEL>"))
+
+;; Assign C-x ? as help-command
+(global-set-key (kbd "C-x ?") 'help-command)
+
+;; Assign C-m as newline-and-indent
+(global-set-key (kbd "C-m") 'newline-and-indent)
+
+;; Assign C-t as move window
+(global-set-key (kbd "C-t") 'other-window)
+
+;; Display column number on mode-line
+(column-number-mode t)
+
+;; Display column number on left side
+(setq linum-format "%4d ")
+(global-linum-mode t)
+
+;; tab setting
+(setq-default tab-width 2)
+(setq-default indent-tabls-mode nil)
 
 ;; Move previous window
 (global-set-key "\C-xp" (lambda () (interactive) (other-window -1)))
@@ -26,3 +46,4 @@
 (require 'multi-term)
 (setq multi-term-program shell-file-name)
 (global-set-key (kbd "C-c t") '(lambda () (interactive) (multi-term)))
+; (setq multi-term-scroll-show-maximum-output 1)
