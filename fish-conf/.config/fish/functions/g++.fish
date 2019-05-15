@@ -1,4 +1,6 @@
-# Defined in - @ line 1
-function g++ --description 'alias g++ g++ --std=c++17'
-	command g++ --std=c++17 $argv;
+function g++
+  set filename $argv[1] 
+  # remove '.cpp'
+  set filenamebody (string replace ".cpp" "" $filename) 
+  command g++ -std=c++17 $filename -o $filenamebody;
 end
