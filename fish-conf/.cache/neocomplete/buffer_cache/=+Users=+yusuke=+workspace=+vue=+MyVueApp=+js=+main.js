@@ -1,1 +1,0 @@
-{'function', 'strict', 'data', 'newItem', 'todos', 'title', 'task1', 'isDone', 'false', 'task2', 'task3', 'true', 'methods', 'addItem', 'item', 'this', 'push', 'deleteItem', 'index', 'confirm', 'sure', 'splice'}

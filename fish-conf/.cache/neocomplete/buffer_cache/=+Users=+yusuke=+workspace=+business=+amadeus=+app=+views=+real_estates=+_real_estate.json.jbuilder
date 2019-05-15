@@ -1,1 +1,0 @@
-{'json', 'extract', 'real_estate', 'name', 'bc_trade_value', 'settlement_date', 'lease_classification', 'wanted_rent', 'collection_agency_commission', 'guaranteed_rent', 'created_at', 'updated_at', 'real_estate_url', 'format'}

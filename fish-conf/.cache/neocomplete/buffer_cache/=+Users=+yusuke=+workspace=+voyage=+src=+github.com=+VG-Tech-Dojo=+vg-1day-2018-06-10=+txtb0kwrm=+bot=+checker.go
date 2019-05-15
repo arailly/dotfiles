@@ -1,1 +1,0 @@
-{'package', 'import', 'regexp', 'github', 'Tech', 'Dojo', 'txtb0kwrm', 'model', 'type', 'Checker', 'message', 'interface', 'Check', 'Message', 'bool', 'RegexpChecker', 'true', 'false', 'struct', 'Regexp', 'func', 'return', 'MatchString', 'Body', 'NewRegexpChecker', 'pattern', 'string', 'MustCompile'}

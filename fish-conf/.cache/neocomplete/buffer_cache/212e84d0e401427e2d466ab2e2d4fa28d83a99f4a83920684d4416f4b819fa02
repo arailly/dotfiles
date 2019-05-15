@@ -1,1 +1,0 @@
-{'class', 'ModifyRemindColumnsToRealEstate', 'ActiveRecord', 'Migration', 'change', 'remove_column', 'real_estates', 'whether_remind_ab_negotiation', 'whether_remind_other', 'whether_remind_check_item', 'add_column', 'whether_remind_ab_contract', 'boolean', 'whether_remind_bc_contract', 'whether_remind_payment', 'whether_remind_after_payment'}

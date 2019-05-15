@@ -1,1 +1,0 @@
-{'local', 'python', 'coding', 'import', 'GPIO', 'time', 'random', 'ready_pin_num', 'right_judge_pin_num', 'left_judge_pin_num', 'right_led_pin_num', 'left_led_pin_num', 'setmode', 'BOARD', 'setup', 'time_list', 'while', 'True', 'print', 'input', 'HIGH', 'break', 'output', 'cleanup', 'random_wait_time', 'lambda', 'randrange', 'random_right_or_left', 'right', 'else', 'left'}

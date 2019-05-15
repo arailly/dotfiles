@@ -1,1 +1,0 @@
-{'class', 'CreateMonthlyCheckItems', 'ActiveRecord', 'Migration', 'change', 'create_table', 'monthly_check_items', 'date', 'pay_month', 'boolean', 'remind_pay_guaranteed_rent_on_10th', 'remind_pay_monthly_rent_from_tenant_on_15th', 'references', 'real_estate', 'foreign_key', 'true', 'timestamps'}

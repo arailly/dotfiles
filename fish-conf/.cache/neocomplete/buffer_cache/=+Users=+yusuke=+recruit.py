@@ -1,1 +1,0 @@
-{'local', 'python3', 'import', 'requests', 'json', 'urllib', 'parse', 'main', 'argv', 'fizz', 'http', 'challenge', 'server', 'code', 'check', 'hash', 'urlencode', 'print', 'data', 'loads', 'text', '__name__', '__main__'}

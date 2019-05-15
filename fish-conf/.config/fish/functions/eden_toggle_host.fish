@@ -1,1 +1,0 @@
-/Users/yusuke/.config/fisherman/eden/eden_toggle_host.fish

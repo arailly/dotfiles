@@ -1,1 +1,0 @@
-{'module', 'ApplicationHelper', 'link_to_add_fields', 'name', 'association', 'new_object', 'object', 'send', 'klass', 'object_id', 'fields', 'fields_for', 'child_index', 'builder', 'render', 'to_s', 'singularize', '_fields', 'link_to', 'class', 'add_fields', 'data', 'gsub'}

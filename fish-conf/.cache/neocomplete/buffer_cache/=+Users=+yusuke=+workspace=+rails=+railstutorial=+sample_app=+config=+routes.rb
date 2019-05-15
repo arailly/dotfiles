@@ -1,1 +1,0 @@
-{'Rails', 'application', 'routes', 'draw', 'sessions', 'root', 'static_pages', 'home', 'root_path', 'help', 'about', 'contact', 'signup', 'users', 'post', 'create', 'login', 'delete', 'logout', 'destroy', 'resources', 'contact_path', 'details', 'available', 'within', 'this', 'file', 'http', 'guides', 'rubyonrails', 'routing', 'html', 'hello'}
