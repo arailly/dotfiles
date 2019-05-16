@@ -1,4 +1,4 @@
-function g++
+function myg++
   set filename $argv[1] 
   # remove '.cpp'
   set filenamebody (string replace ".cpp" "" $filename) 
