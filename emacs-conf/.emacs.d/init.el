@@ -25,9 +25,6 @@
 ;; Assign C-m as newline-and-indent
 (global-set-key (kbd "C-m") 'newline-and-indent)
 
-;; Assign C-t as move window
-(global-set-key (kbd "C-t") 'other-window)
-
 ;; Display column number on mode-line
 (column-number-mode t)
 
@@ -39,11 +36,18 @@
 (setq-default tab-width 2)
 (setq-default indent-tabls-mode nil)
 
+;; Assign C-t as other-window
+(global-set-key (kbd "C-t") 'other-window)
+
 ;; Move previous window
-(global-set-key "\C-xp" (lambda () (interactive) (other-window -1)))
+(global-set-key (kbd "C-x p") (lambda () (interactive) (other-window -1)))
 
 ;; Use multi-term
 (require 'multi-term)
 (setq multi-term-program shell-file-name)
 (global-set-key (kbd "C-c t") '(lambda () (interactive) (multi-term)))
 ; (setq multi-term-scroll-show-maximum-output 1)
+
+;; complete pair
+(electric-pair-mode 1)
+
